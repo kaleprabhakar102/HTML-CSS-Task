@@ -1,0 +1,263 @@
+/* common */
+
+.color_red {
+    color: red;
+}
+
+.text_bold {
+    font-weight: bold;
+}
+
+.color_blue {
+    color: rgb(23, 23, 151);
+}
+
+.border_gray {
+    border: 1px solid rgb(236, 230, 230);
+}
+
+.backgorund_color_gray {
+    background-color: rgb(236, 230, 230);
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    /* border: 1px solid gray; */
+}
+
+
+/* Header */
+
+header {
+    padding-top: 10px;
+    height: 50px;
+    border-bottom: 1px solid rgb(236, 230, 230);
+}
+
+header .title {
+    float: left;
+}
+
+.title span {
+    font-size: 30px;
+    padding: 15px;
+}
+
+header .rightside {
+    float: right;
+}
+
+.rightside ul {
+    list-style: none;
+    margin: 0;
+}
+
+.rightside ul li {
+    float: left;
+    margin: 0px 10px;
+}
+
+.rightside i {
+    margin-top: 5px;
+}
+
+
+/* Sidebar */
+
+sidebar {
+    width: 280px;
+    height: 950px;
+    border-right: 1px solid rgb(236, 230, 230);
+    float: left;
+}
+
+sidebar ul {
+    list-style: none;
+    margin-left: 0px;
+}
+
+sidebar ul li {
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+sidebar ul li i {
+    margin-right: 10px;
+}
+
+sidebar ul li:hover {
+    background-color: rgb(87, 87, 194);
+    color: white;
+}
+
+
+/* Main Content */
+
+main {
+    width: 1230px;
+    float: left;
+}
+
+main section {
+    border-radius: 5px;
+}
+
+.main_first {
+    width: 700px;
+    height: auto;
+    float: left;
+    margin: 20px;
+    background-color: rgb(236, 230, 230);
+    padding: 1px;
+}
+
+.main_first .active_div {
+    background-color: white;
+    border-radius: 0px 5px 0px 0px;
+    padding: 10px;
+    height: 100px;
+}
+
+.active_div .active_left {
+    float: left;
+}
+
+.active_div .active_left .title {
+    font-weight: bold;
+}
+
+.active_left .progress_details {
+    padding-top: 15px;
+    width: 300px;
+}
+
+.active_left .progress_details .progress {
+    float: right;
+}
+
+.active_left .small_progressbar {
+    margin: 7px 0 10px 0;
+    width: 300px;
+    background-color: rgb(236, 230, 230);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.active_left .small_progressbar div {
+    background-color: rgb(255, 115, 0);
+    width: 40%;
+    height: 100%;
+}
+
+.active_left .due_date {
+    float: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(12, 12, 131);
+    padding-top: 25px;
+}
+
+.active_div .active_right {
+    float: right;
+    margin: auto;
+}
+
+.active_div .active_right ul {
+    list-style: none;
+    margin: auto;
+}
+
+.active_div .active_right ul li {
+    float: left;
+    padding: 20px;
+    height: 20px;
+}
+
+.main_first .content {
+    margin: 20px;
+}
+
+.main_second {
+    width: 440px;
+    float: left;
+    margin: 20px;
+    height: 600px;
+    padding-bottom: 20px;
+}
+
+.main_second .content {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(236, 230, 230);
+    margin-bottom: 20px;
+}
+
+.main_second .content .heading {
+    width: 100%;
+    background-color: rgb(236, 230, 230);
+}
+
+.main_second .content .heading i {
+    padding: 25px;
+}
+
+.main_second .content .heading span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main_second .content .content_item {
+    width: 400px;
+    margin: 10px auto 10px auto;
+    padding: 5px;
+}
+
+.main_second .content .upcomming_items {
+    background-color: rgb(245, 240, 240);
+    border-radius: 5px;
+}
+
+.main_second .content .progress_details {
+    padding-top: 15px;
+    width: 100%;
+}
+
+.main_second .content .progress_details .progress {
+    float: right;
+}
+
+.main_second .content .progressbar {
+    margin: 7px 0 10px 0;
+    width: 100%;
+    background-color: rgb(236, 230, 230);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.main_second .content .progressbar div {
+    background-color: rgb(255, 115, 0);
+    width: 40%;
+    height: 100%;
+}
+
+.ask_query {
+    position: fixed;
+    height: 50px;
+    width: 60px;
+    border-radius: 30px 0px 0px 30px;
+    background-color: orangered;
+    right: 0px;
+    bottom: 20px;
+}
+
+.ask_query i {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    color: white;
+}
