@@ -39,6 +39,7 @@ header .user_info i {
 
 main {
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -73,7 +74,7 @@ main sidebar ul li i {
 /* _______________________ main content __________________ */
 
 main .content {
-    flex: 3;
+    flex: 5;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -84,7 +85,7 @@ main .content {
 
 main .content .courses {
     border: 1px solid;
-    flex: 2;
+    flex: 3;
     background-color: gray;
 }
 
@@ -145,7 +146,7 @@ main .content .courses {
 
 main .content .course_info {
     padding-left: 25px;
-    /* flex: 1; */
+    flex: 2;
     display: flex;
     flex-direction: column;
 }
