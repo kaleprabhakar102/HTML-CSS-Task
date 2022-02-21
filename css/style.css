@@ -59,22 +59,22 @@ main sidebar {
     border-right: 1px solid rgb(194, 192, 192);
 }
 
-main sidebar ul {
-    list-style: none;
+main sidebar div {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+main sidebar div span {
     font-size: 20px;
 }
 
-main sidebar ul li {
-    padding: 15px;
-    border-radius: 5px;
-}
-
-main sidebar ul li:hover {
+main sidebar div:hover {
     background-color: rgb(45, 45, 146);
     color: white;
 }
 
-main sidebar ul li i {
+main sidebar div i {
     padding-right: 10px;
 }
 
@@ -105,7 +105,7 @@ main .content .courses {
 }
 
 .course .about_course {
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -133,10 +133,10 @@ main .content .courses {
 }
 
 .course .course_users {
-    width: 250px;
+    width: 150px;
     padding: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -166,8 +166,8 @@ main .content .course_info {
 }
 
 .course_info .info .heading {
-    padding: 25px 20px;
-    font-size: 30px;
+    padding: 20px 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
