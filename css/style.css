@@ -176,7 +176,7 @@ main .content .course_info {
 }
 
 .course_info .info .info_contents {
-    padding: 5px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
